@@ -1,0 +1,18 @@
+Traffic road signs detection.
+- scene color images containing traffic road signs with circular,
+triangular or rectangular shape are given;
+- you'll study and implement a method to detect all the traffic
+road signs that appear in the images;
+- the result consists in marking of all the detected traffic road
+signs (or areas where they are located) over the original scene
+images.
+
+# --- detect_traffic_signs.py reads the lines below ---
+# Folder of scene images (*.jpg, *.png, …), relative to this file:
+images_dir: images
+
+# Where to save images with overlays (optional; default output/):
+output_dir: output
+
+# Alternatively list explicit files:
+# image: samples/street01.jpg
